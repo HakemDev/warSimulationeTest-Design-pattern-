@@ -18,7 +18,7 @@ public class Report {
             String NcPc=countries.get(i).getName_country().charAt(0)+"c";
             int len=countries.get(i).getListNbrOfSoldierInCities().size();
             for(int j=0;j<len;j++){
-                phrase+=NcPc+j+":"
+                phrase+=NcPc+(j+1)+":"
                         +countries.get(i).getListNbrOfSoldierInCities().get(j)
                         +"-"
                         +countries.get(i).getListNbrOfCitizenInCities().get(j);
